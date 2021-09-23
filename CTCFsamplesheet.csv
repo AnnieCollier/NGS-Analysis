@@ -1,0 +1,5 @@
+SampleID,Factor,Condition,Replicate,bamReads,bamControl,Peaks,PeakCaller
+WT1,CTCF,WT,1,WT1CTCF_srt_rmdup.bam,JPInput_srt_rmdup.bam,WT1CTCF_peaks.filterBL.bed,macs
+WT2,CTCF,WT,2,WT2CTCF_srt_rmdup.bam,JPInput_srt_rmdup.bam,WT2CTCF_peaks.filterBL.bed,macs
+KO1,CTCF,KO,1,KO1CTCF_srt_rmdup.bam,JPInput_srt_rmdup.bam,KO1CTCF_peaks.filterBL.bed,macs
+KO2,CTCF,KO,2,KO2CTCF_srt_rmdup.bam,JPInput_srt_rmdup.bam,KO2CTCF_peaks.filterBL.bed,macs
