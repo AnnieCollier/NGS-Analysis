@@ -23,6 +23,14 @@ For differential analysis, use the union_macs script to make a union table and t
 # Illumina Methylation Arrays
 Follow the Methylation_Array.R script. 
 
+# ChromHMM
+ChromHMMM maps the enrichment of different chromatin states relative to a set of coordinates (bed file). First you need to establish the chromatin states using histone mark ChIP-seq or ATAC-seq data. 
+1. Obtain bamtobed ("srt_rmdup.bed") files from ChIP or ATAC mapping
+2. fill out a cellmarktable text file with the files you want to use to make chromatin states
+3. Binarize the bed files using the chromHMM_binarizebed.sh script
+4. Specify the names and paths of your region of interest bed file in the chromHMM python script and run. 
+5. Program will output images and text files for your region of interest.
+
 # Plotting
 Useful HOMER scripts can be found in the homer.sh file. These scripts are useful for:
 - motif finding
