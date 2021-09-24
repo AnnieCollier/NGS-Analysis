@@ -39,3 +39,7 @@ Useful HOMER scripts can be found in the homer.sh file. These scripts are useful
 Deeptools can be found in the deeptools.sh script. This can be used to:
 - make heatmaps of ChIP/ATAC data
 - make profile plots of ChIP/ATAC data
+
+Use MinDist.py script to find distances between ChIP-seq peaks (this is Sam's)
+
+Use Virtual4C script to make virtual 4C plots to visualize raw cohesin hiChIP data. For this, you will need normalization numbers and coordinates of interest.
