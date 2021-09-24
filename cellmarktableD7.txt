@@ -1,0 +1,10 @@
+D7WT	H3K27Ac	H9d7_p63WT_H3K27ac_rep1_srt_rmdup.bed
+D7WT	H3K27Ac	H9d7_p63WT_H3K27ac_rep2_srt_rmdup.bed
+D7WT	H3K27me3	H9d7_p63WT_H3K27me3_rep1_srt_rmdup.bed
+D7WT	H3K27me3	H9d7_p63WT_H3K27me3_rep2_srt_rmdup.bed
+D7WT	H3K4me1	H9d7_p63WT_H3K4me1_rep1_srt_rmdup.bed
+D7WT	H3K4me1	H9d7_p63WT_H3K4me1_rep2_srt_rmdup.bed
+D7WT	H3K4me3	H9d7_p63WT_H3K4me3_rep1_srt_rmdup.bed
+D7WT	H3K4me3	H9d7_p63WT_H3K4me3_rep2_srt_rmdup.bed
+D7WT	ATAC	WT1_norm_sorted_rmdup_nochrM.bed
+D7WT	ATAC	WT2_norm_sorted_rmdup_nochrM.bed
