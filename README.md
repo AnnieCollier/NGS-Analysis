@@ -1,5 +1,5 @@
 # NGS-Analysis
-Code for mapping and analyzing NGS data
+This repository contains various code for mapping and analyzing NGS data, including differential expression and motif finding.
 
 # RNA-seq 
 Use the RNASEQ.sh file to map and process raw fastq files from RNA-seq experiments. This method uses TOPHAT but other mapping programs are probably recommended. 
