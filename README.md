@@ -31,6 +31,10 @@ ChromHMMM maps the enrichment of different chromatin states relative to a set of
 4. Specify the names and paths of your region of interest bed file in the chromHMM python script and run. 
 5. Program will output images and text files for your region of interest.
 
+![image](https://user-images.githubusercontent.com/90862478/134739895-391de034-1452-4c5b-ba5b-ac29dae2696d.png)
+
+
+
 # Plotting
 Useful HOMER scripts can be found in the homer.sh file. These scripts are useful for:
 - motif finding
@@ -40,6 +44,15 @@ Deeptools can be found in the deeptools.sh script. This can be used to:
 - make heatmaps of ChIP/ATAC data
 - make profile plots of ChIP/ATAC data
 
+![image](https://user-images.githubusercontent.com/90862478/134739913-1e962143-c604-498a-a282-f64783eee403.png)
+
+
 Use MinDist.py script to find distances between ChIP-seq peaks (this is Sam's)
 
+![image](https://user-images.githubusercontent.com/90862478/134739935-ff22b847-886c-41f8-b9d0-69ed03a89c82.png)
+
+
 Use Virtual4C script to make virtual 4C plots to visualize raw cohesin hiChIP data. For this, you will need normalization numbers and coordinates of interest.
+
+![GREM2H9d7_5000 chr4_240770000 matrix](https://user-images.githubusercontent.com/90862478/134740008-7a453b1c-8ba9-4e01-95e6-207e38c1122f.png)
+
