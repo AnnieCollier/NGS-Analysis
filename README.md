@@ -35,10 +35,12 @@ ChromHMMM maps the enrichment of different chromatin states relative to a set of
 
 
 
-# Plotting
+# Other useful tooks and Plotting
 Useful HOMER scripts can be found in the homer.sh file. These scripts are useful for:
 - motif finding
 - peak enrichment in a set of coordinates
+
+ROSE is used to rank enhancers by H3K27Ac signal. Change the paths and names in the ROSE.py script and run as a batch command. 
 
 Deeptools can be found in the deeptools.sh script. This can be used to:
 - make heatmaps of ChIP/ATAC data
