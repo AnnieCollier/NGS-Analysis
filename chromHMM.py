@@ -24,7 +24,8 @@ beds = ['DMP_hg38_2kb']
 
 cmds=[]
 
-#can modify names depending on how you structured your cell table or on how many states you used.
+#can modify names (ns and a) depending on how you structured your cell table or on how many states you used.
+#the "pos" path is the directory where you binarizebed output is stored
 #add the -s option to change the x axis limits
 for bed in beds:
 	ns=['D7WT']
