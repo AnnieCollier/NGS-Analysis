@@ -14,6 +14,7 @@ Use the RNA_DESEQ2.R script to run differential expression analysis on the raw c
 6. The pipeline will eventually output Mapping, peakCalling, Motif and tracks output directories, which you can use for downstream analysis.
 
 # ChIP-seq 
+To make a final bed file with reproducible peaks, perform Irreproducible Discovery Rate ,using the IDR.sh script
 For differential analysis, use the DiffBind.R script and bam files
 
 # ATAC-seq 
@@ -22,6 +23,11 @@ For differential analysis, use the union_macs script to make a union table and t
 # Illumina Methylation Arrays
 Follow the Methylation_Array.R script. 
 
+# Plotting
 Useful HOMER scripts can be found in the homer.sh file. These scripts are useful for:
 - motif finding
-- 
+- peak enrichment in a set of coordinates
+
+Deeptools can be found in the deeptools.sh script. This can be used to:
+- make heatmaps of ChIP/ATAC data
+- make profile plots of ChIP/ATAC data
