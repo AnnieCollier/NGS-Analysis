@@ -2,8 +2,9 @@
 This repository contains various code for mapping and analyzing NGS data, including differential expression and motif finding.
 
 # RNA-seq 
-Use the RNASEQ.sh file to map and process raw fastq files from RNA-seq experiments. This method uses TOPHAT but other mapping programs are probably recommended. 
-Use the RNA_DESEQ2.R script to run differential expression analysis on the raw count file. 
+Use STAR_aligner.sh to unzip, perform QC, and map raw fastq files from RNA-seq experiments.
+Use htseqcount.sh to make count tables for differential expression.
+Use  RNA_DESEQ2.R to run differential expression analysis on the raw count file. 
 
 # ATAC or ChIP-seq Mapping:
 1. First, unzip and rename your fastq files
@@ -35,12 +36,12 @@ ChromHMMM maps the enrichment of different chromatin states relative to a set of
 
 
 
-# Other useful tooks and Plotting
+# Other useful tools and plots
 Useful HOMER scripts can be found in the homer.sh file. These scripts are useful for:
 - motif finding
 - peak enrichment in a set of coordinates
 
-ROSE is used to rank enhancers by H3K27Ac signal. Change the paths and names in the ROSE.py script and run as a batch command. 
+ROSE is used to rank enhancers by H3K27Ac signal. Change the paths and names in the ROSE.py script and run as a batch script. 
 
 Deeptools can be found in the deeptools.sh script. This can be used to:
 - make heatmaps of ChIP/ATAC data
