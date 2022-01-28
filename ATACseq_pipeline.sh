@@ -1,4 +1,4 @@
- 
+###THIS SCRIPT WAS CREATED BY SADHANA GADDAM, STANFORD UNIVERSITY
 #!/bin/bash                                                                                                                                                        
 
 ml biology
