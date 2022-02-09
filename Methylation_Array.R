@@ -1,6 +1,6 @@
 ####################
 # Illumina EPIC Methylation Array analysis using Minfi, Limma, and Quantro
-# Author: Annie Collier
+# Author: Annie Collier (adopted from various online vignettes)
 ####################
 
 
