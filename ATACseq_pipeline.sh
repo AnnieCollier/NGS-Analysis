@@ -1,6 +1,8 @@
 ###THIS SCRIPT WAS CREATED BY SADHANA GADDAM, STANFORD UNIVERSITY
 #!/bin/bash                                                                                                                                                        
 
+#Written by Sadhana Gaddam
+
 ml biology
 ml python/2.7.13
 ml py-cutadapt/1.18_py27
